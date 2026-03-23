@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supremozee/Nodejs.git"
+  },
+  "author": "az",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supremozee/Nodejs/issues"
+  },
+  "homepage": "https://github.com/supremozee/Nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

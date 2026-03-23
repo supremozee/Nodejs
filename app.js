@@ -1,6 +1,7 @@
-const server = require("./server")
-server.listen(8000, "127.0.0.1", ()=>console.log("server is running"))
+const express = require("express");
+let app = express();
+const userRouter = require("./route/userRouter")
+app.use(express.json());
+app.use("/user",userRouter)
 
-
-
-//Event Emmitter-> Event Listener -> Event handler
+app.listen(8000, () => console.log("Express server has started"));
